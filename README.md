@@ -1,2 +1,2 @@
-# AI-Object-Detector
- A web app to detect objects in images using TensorFlow.js.
+ai-image-classifier-webapp
+A web application that allows users to upload images and get AI-based predictions using a trained deep learning model.
