@@ -6,13 +6,16 @@
 </head>
 
 <body>
+
     <h1>AI Object Detector</h1>
+
     <p>Upload an image to detect objects</p>
 
-    <form>
-        <input type="file">
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
         <br><br>
         <button type="submit">Analyze</button>
     </form>
+
 </body>
 </html>
